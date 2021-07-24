@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 router = express.Router();
 usersRoute = require('../controllers/usersController');
@@ -49,3 +50,12 @@ router.put('/users/:id', (req, res) => {
 });   
 
 module.exports = router;
+=======
+const express = require("express")
+router = express.Router()
+usersRoute = require('../controllers/usersControllers')
+
+router.get('/', usersRoute.usersController)
+
+module.exports = router
+>>>>>>> a51a5a8 (got the frontend talking to the backend)
