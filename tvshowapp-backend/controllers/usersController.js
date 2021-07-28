@@ -1,10 +1,13 @@
-exports.usersController = (req, res) => {
-  res.json({
-    usersList: [
-      {
-        name: 'Kay',
-        tvShow: 'South Park'
-      }
-    ]
-  });
-};
+// exports.usersController = (req, res) => {
+//   res.json({
+//     usersList: [
+//       {
+//         name: 'Kay',
+//         tvShow: 'South Park'
+//       }
+//     ]
+//   });
+// };
+
+
+// usersRoute.usersController;
