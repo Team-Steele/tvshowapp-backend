@@ -2,22 +2,25 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-<<<<<<< HEAD
+
+// const dummyController = require('./controllers')
+
+
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
-app.set('port', process.env.PORT || 3001);
-app.use('/', require('./routes/users.Route'));
-=======
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-app.use(cors());
+app.get("/", function(req, res){
+  res.send("Express Here!!!")
+})
 app.use('/users/', require('./routes/users.Route'));
->>>>>>> a51a5a8 (got the frontend talking to the backend)
+
+
+app.use("/category", require("./routes/categoryRoute"))
 
 app.listen(3001, () => {
   console.log('listening on port 3001');
 });
+ 
