@@ -16,20 +16,6 @@ router.get('/shows', (req, res) => {
     })
 })
 
-// router.post('/users',( req, res ) => {
-//    const user = req.body.
-//    console.log(req)
-//    const tvShow = req.body.tvShow
-//    console.log(tvShow)
-//    const newUser = new User({
-//        user,
-//        tvShow
-//    })
-//     newUser.save()
-//     console.log(newUser)
- 
-// })
-
 router.post('/users', (req, res) => {
     User.create(
         {
