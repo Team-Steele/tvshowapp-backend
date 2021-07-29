@@ -6,11 +6,7 @@ const UserSchema = new mongoose.Schema(
         user: String,
            
         
-        tvShows: {
-            type: [String],
-           
-
-        }
+        tvShows: [String]
     }
 )
 
