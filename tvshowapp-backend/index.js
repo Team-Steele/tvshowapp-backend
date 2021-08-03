@@ -15,9 +15,11 @@
  app.use('/', require('./routes/users.Route'));
 
 
+
  app.set('port', process.env.PORT || 3001);
  
 //  app.listen(3001, () => {
 //    console.log('listening on port 3001');
 //  });
 app.listen(app.get("port"), () => {console.log(`listening on ${app.get("port")}`)})
+
