@@ -6,7 +6,7 @@ The idea for the Tv Show App was to create a an app that allowed user to come in
 
 ## Process and Thought logic
 
-The Tv Show App was create with to individual sections. The backend and the frontend of the App. Backend source code deals with serving the request made by the users and their clients with the end result deployed via Heroku. 
+The Tv Show App was create with to individual sections. The backend and the frontend of the App. Backend source code deals with serving the request made by the users and their clients with the end result deployed via Heroku. The Back end development refers to the server side of an application and everything that communicates between the database and the browser.
 
 In order to have a place to store and create all this new information and data our first step was to create a database using mongoDB. In order to achieve this we first set up or basic folder structure and installed various packages need for this project.
 
