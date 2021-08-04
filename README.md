@@ -16,6 +16,14 @@ In order to have a place to store and create all this new information and data o
           ![This is a alt text.](https://github.com/Team-Steele/tvshowapp-backend/blob/andrew/imgAndGifs/Screen%20Shot%202021-08-04%20at%2010.08.37%20AM.png)
 # 
 
+We also developed a set of MVP goals which included:
+1. A user should be able to login in with there personal userID and password.
+2. A user should have access to their personal profile of tv shows.
+3. A user should be able to search for a specific show with an api call to fetch data. 
+4. A user should be able to add a tv show to their profile. 
+5. A user should be able to perform CRUD functions on their profile of shows.
+
+
 ## Technologies used to create Project
 
 Once we had a the basic file and folder set for the backend, we need to make sure we had the necessary dependencies. Using the terminal [npm](https://docs.npmjs.com/cli/v7/commands/npm-install/) to install our necessary dependencies.
@@ -75,10 +83,11 @@ Finally we used Heroku to host our app and deploy our App live to the internet i
 
 ## Issues and future stretch goals:
 
-1. An important part of this project was learning to work as a group. It is easy to write your own code but having to incorporate another person's code and ideas was a great learning experience. Each step in this project seemed to break down into even smaller steps. Like a link in a chain if one thing is missing or in the wrong place it can cause a headache. Working in a group exacerbated headache at times and others times helped elevate the pressure. Overall the group was a success and worked together to figure out solutions to our issues. 
+1. We definilty had an issue with user login and authentication. We were not able to implement this goal at this time.
+2. An important part of this project was learning to work as a group. It is easy to write your own code but having to incorporate another person's code and ideas was a great learning experience. Each step in this project seemed to break down into even smaller steps. Like a link in a chain if one thing is missing or in the wrong place it can cause a headache. Working in a group exacerbated headache at times and others times helped elevate the pressure. Overall the group was a success and worked together to figure out solutions to our issues. 
 
-2. Right from the beginning we knew connecting our users with there comments would be a challenge. Also being able to add shows from a fetch call to an API was going to prove to be a task in itself.  
-3. We also had a bit of trouble deploying our app to heroku at first. Getting familiar with configuring everything and adding Config Variables to Heroku so that it would recognize our API key without sharing it with the internet. 
+3. Right from the beginning we knew connecting our users with there comments would be a challenge. Also being able to add shows from a fetch call to an API was going to prove to be a task in itself.  
+4. We also had a bit of trouble deploying our app to heroku at first. Getting familiar with configuring everything and adding Config Variables to Heroku so that it would recognize our API key without sharing it with the internet. 
 
 
 
