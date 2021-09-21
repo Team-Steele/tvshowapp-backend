@@ -1,6 +1,6 @@
-const seedData = require('./user-seeds.json')
-const User = require('../models/user-model')
-const Comment = require('../models/comment')
+const seedData = require('./user-seeds.json');
+const User = require('../models/user-model');
+const Comment = require('../models/comment');
 
 User.deleteMany({})
   .then(() => {
@@ -9,12 +9,11 @@ User.deleteMany({})
   .then(() => {
     return Comment.create({
       comment: 'Waste of time!',
-     
     });
   })
   .then((comments) => {
     return seedData.map((user) => {
-      return ({ ...user, opinion: comments._id })
+      return { ...user, opinion: comments._id };
     });
   })
   .then((users) => {
@@ -25,19 +24,6 @@ User.deleteMany({})
   .finally(() => {
     process.exit();
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // User.deleteMany({})
 // .then(() => {
